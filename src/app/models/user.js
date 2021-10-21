@@ -17,6 +17,10 @@ const UserSchema = new mongoose.Schema({
         required: true,
         select: false
     },
+    manager: {
+        type: String,
+        require: true
+    },
     passwordResetToken: {
         type: String,
         select: false,

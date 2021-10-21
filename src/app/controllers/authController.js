@@ -126,5 +126,4 @@ router.post('/reset_password', async (req, res) => {
     }
 })
 
-
 module.exports = app => app.use('/auth', router)
